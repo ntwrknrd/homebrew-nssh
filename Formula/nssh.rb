@@ -2,27 +2,27 @@ class Nssh < Formula
   desc "SSH wrapper with credential management and session recording"
   homepage "https://github.com/ntwrknrd/nssh"
   license "GPL-3.0-only"
-  version "0.2.2"
+  version "0.2.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/ntwrknrd/nssh/releases/download/v0.2.2/nssh_0.2.2_darwin_amd64.tar.gz"
-      sha256 "d4c99eb5eb392cc869be16c4519a36330850f842b41d00ac3bb214fe21276022"
+      url "https://github.com/ntwrknrd/nssh/releases/download/v0.2.3/nssh_0.2.3_darwin_amd64.tar.gz"
+      sha256 "35fc47e0f322b426ed43a460adedaf43a54c718cf4adbb36180797612a0a30af"
     end
     on_arm do
-      url "https://github.com/ntwrknrd/nssh/releases/download/v0.2.2/nssh_0.2.2_darwin_arm64.tar.gz"
-      sha256 "6b2469998b716118f0d7568f99cd729374b39720fc1559eb4765364dd498742f"
+      url "https://github.com/ntwrknrd/nssh/releases/download/v0.2.3/nssh_0.2.3_darwin_arm64.tar.gz"
+      sha256 "e8ca145b868b4b7688315623d640c9f76804ca786b23b68404dd0292887d6021"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ntwrknrd/nssh/releases/download/v0.2.2/nssh_0.2.2_linux_amd64.tar.gz"
-      sha256 "087aaeb6bc161026fb3b9a452582f9cea79bc4cc4897d309e19461d95505ab59"
+      url "https://github.com/ntwrknrd/nssh/releases/download/v0.2.3/nssh_0.2.3_linux_amd64.tar.gz"
+      sha256 "006af084bb317977c28f429f90764f097a0951ec6847481d7fa62bbfdf467d82"
     end
     on_arm do
-      url "https://github.com/ntwrknrd/nssh/releases/download/v0.2.2/nssh_0.2.2_linux_arm64.tar.gz"
-      sha256 "062ac41df2228ecddaf5e30c93d40d2ef325499919aff23277848140d44cb6ea"
+      url "https://github.com/ntwrknrd/nssh/releases/download/v0.2.3/nssh_0.2.3_linux_arm64.tar.gz"
+      sha256 "d7e93bec87c6080e607669c37a5569ce0361451d7bfed6bd7f0b60b37e5f11aa"
     end
   end
 
